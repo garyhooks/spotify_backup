@@ -1,11 +1,18 @@
+#!/usr/bin/env python
+# Author: Gary Hooks
+# Web: http://www.garyhooks.co.uk
+# Email: garyhooks@gmail.com
+# Publish Date: 30th August 2017
+# Licence: GNU GPL
+
 import sys
 import spotipy
 import spotipy.util as util
 import time
 
 ## Declare the contants firstly - these are from API
-CLIENT_ID = "6c8a37b1359b40698f821bde9d7c1beb"
-CLIENT_SECRET = "f0b33d7de8ba400d8612e5d127e83fac"
+CLIENT_ID = "6c8a37b1359b40698f821bde9d7c1beb" ### REPLACE this with your own details
+CLIENT_SECRET = "XXX" ### REPLACE this with your own details
 
 ## Declare the output file name
 ## For now there is two files created:
