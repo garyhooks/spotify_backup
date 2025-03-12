@@ -34,7 +34,7 @@ scope = 'user-library-read'
 # Get the token from user and ensure authorised to view the playlists
 try:
     #token = util.prompt_for_user_token(username, scope, CLIENT_ID, CLIENT_SECRET, "http://localhost:8888/callback")
-    token = "BQAwOc6RxVAJLz7b-932d05X1RI-wqt8FSCY-UIuHdEYmJGugn-OzfXO3Rk9xKz7dco9SOfjyTgcul0P9CpLlR0nVNSRc5eDTIW_NW1DwF04divFURG60hoynhx12m-s71_5PDk67cT2mtgep_u8WQ"
+    token = "xxx"
 except:
     sys.exit("Something has gone wrong")
 
